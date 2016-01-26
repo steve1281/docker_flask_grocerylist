@@ -1,0 +1,3 @@
+docker stop flask
+docker rm flask
+

@@ -1,0 +1,4 @@
+docker build -t willy-flask .
+#docker run -d --name willy-flask -p 80:80 flask
+docker run -d --name flask -v /home/steve/docks/docker_flask_grocerylist/app/database:/var/www/app/database  -p 80:80 willy-flask
+

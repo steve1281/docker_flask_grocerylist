@@ -1,0 +1,10 @@
+CREATE TABLE wines (id integer, producer varchar(30), kind varchar(20), country varchar(20)); 
+INSERT INTO WINES VALUES (1, "Rooiberg", "Pinotage", "South Africa");
+INSERT INTO WINES VALUES (2, "KWV", "Shiraz", "South Africa");
+INSERT INTO WINES VALUES (3, "Marks & Spencer", "Pinot Noir", "France");
+
+create table grocery_items (id integer, description varchar(128), category_id integer);
+create table grocery_categories (id integer, description varchar(128));
+create table grocery_lists (id integer, edate varchar(30), item_id integer, notes varchar(128));
+create table email_list (id integer, email_address varchar(128), save_send integer);
+
